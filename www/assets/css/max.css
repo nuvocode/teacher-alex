@@ -1,0 +1,221 @@
+.post-single ul li {
+    list-style-type: none !important;
+}
+.hero_comment {
+    display:flex;
+    position:absolute;
+    bottom:30px;
+    left:30px;
+    flex-flow:column;
+    align-items:flex-start;
+    justify-content: center;
+    font: 700 .98rem "Poppins", sans-serif;
+    color:white;
+    background-color:rgba(0, 0, 0, 0.722);
+    padding:8px 12px;
+    border-radius:5px;
+}
+.quickReference {
+    display:flex;
+    flex-flow:column;
+    flex:1;
+    padding:20px 40px;
+    border-radius:8px;
+    overflow:hidden;
+    background-color:rgb(246, 246, 246);
+    margin:20px 0px;
+}
+.quickReference p {
+    font: 500 .98rem "Poppins", sans-serif;
+    color:rgb(57, 57, 57);
+}
+.max_img {
+    display:block;
+    width:120px;
+    height:120px;
+    margin:0 auto 20px auto;
+    border-radius:50%;
+    overflow:hidden;
+    border: 4px solid #ffffff14;
+    object-fit: cover;
+}
+.max_icon {
+    height:120px;
+    width:auto;
+    border-radius: 50%;
+    display: inline-block;
+    overflow:hidden;
+}
+.link {
+    cursor:pointer;
+}
+.card-cover {
+    position: relative;
+    overflow: hidden;
+    background-size: 100%; /* Set the initial size */
+    transition: background-size 600ms ease-in-out; /* Add a transition */
+  }
+  
+  .card-cover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.377); /* Semi-transparent black color */
+    filter: brightness(0.7); /* Darken the image */
+    z-index: 1;
+  }
+  
+  .card-cover:hover {
+    background-size: 120%; /* Enlarge the background image */
+  }
+  
+  .card-cover h2 {
+    position: relative;
+    z-index: 999;
+    color: white;
+  }
+  
+.render_hero {
+    background-image: url(../img/ai_renders/renders_hero.jpg);
+    background-position: top center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+  
+.samp_portfolio {
+    background-image: url(../img/max/Mobile.png);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.samp_ctn {
+    background-image: url(../img/samp/ctn.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.samp_fpr_events {
+    background-image: url(../img/samp/fpr_events.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.samp_fpr {
+    background-image: url(../img/samp/fpr.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.samp_goshare {
+    background-image: url(../img/samp/goshare.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.samp_maritime {
+    background-image: url(../img/samp/maritime.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.samp_taylor {
+    background-image: url(../img/samp/taylor.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.samp_thrival {
+    background-image: url(../img/samp/thrival.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.samp_wcrp {
+    background-image: url(../img/samp/wcrp.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.app_development {
+    background-image: url(../img/max/hybrid-mobile-app-development.jpeg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.max_author {
+    background-image: url(../img/brand/MaxKnox.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.max-author-thmb-sm {
+    display:flex;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background-image: url(../img/brand/MaxKnox.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:hidden;
+}
+.smallthmb {
+    max-width:30px;
+    height:auto;
+    border-radius:50%;
+    overflow:hidden;
+}
+.controls {
+    display:flex;
+    flex-flow:row;
+    align-items:flex-start;
+    justify-content: center;
+    width:100%;
+    height:80px;
+    background-color: #efefef;
+    border-radius:12px;
+    margin-top:14px;
+}
+.flex-meta {
+    display:flex;
+    flex-flow:row;
+    align-items:center;
+    justify-content:flex-start;
+}
+.meta-spacer {
+    display:flex;
+    width:4px;
+    height:4px;
+    border-radius:50%;
+    background-color: #FE4F70;
+    overflow:hidden;
+    margin:0px 12px;
+}
+pre code {
+    background-color: rgb(37, 37, 37);
+    display: block;
+    padding: 0 20px;
+    color:rgb(227, 215, 167);
+    border-radius:14px;
+}
+.color_comment {
+    color:rgb(198, 198, 198);
+}
+.color_purple {
+    color:rgb(168, 72, 168);
+}
+.color_blue {
+    color:rgb(97, 188, 227);
+}
+.color_cream {
+    color:rgb(227, 215, 167);
+}
+.color_dk_blue {
+    color:rgb(46, 81, 138);
+}
+.color_white {
+    color:rgb(209, 209, 209);
+}
